@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Cotizar SOAT" skipped="0" tests="1" time="3.47" timestamp="2022-02-24 05:47:12"><testcase name="Expedir el SOAT de un vehículo exitosamente"><error message="Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html'." type="java.lang.IllegalStateException">Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html'.</error><system-err>Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html'.&#13;
+io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:84)&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:220)&#13;
+io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:166)&#13;
+net.serenitybdd.rest.decorators.ResponseDecorated.as(ResponseDecorated.java:63)&#13;
+co.com.segurossura.certification.soat.stepdefinitions.SimularApiStepDefinition.deberíaVerQueLaTarifaDelSOATEsDe(CotizarSoatStepDefinition.java:33)&#13;
+✽.debería ver que la tarifa del SOAT es de 678350.0(file:///C:/Automatizaciones/Proyectos_Automatización/PracticaServiciosMateo/src/test/resources/features/cotizar_soat.feature:12)&#13;
+</system-err></testcase></testsuite>

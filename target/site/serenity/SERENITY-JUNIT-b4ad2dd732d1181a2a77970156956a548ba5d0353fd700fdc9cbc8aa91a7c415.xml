@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Simular Api" skipped="0" tests="2" time="4.28" timestamp="2022-08-05 02:43:00"><testcase name="Validar servicio de API SIMULADOR"/><testcase name="Validar error en el mensaje esperado"/></testsuite>

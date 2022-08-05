@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Simular Api" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-05T19:43:00" hostname="QV-4398" time="4.403">
+  <properties/>
+  <testcase name="Validar servicio de API SIMULADOR" classname="Simular Api" time="3.814"/>
+  <testcase name="Validar error en el mensaje esperado" classname="Simular Api" time="0.589"/>
+  <system-out><![CDATA[Feature from file:///C:/Automatizaciones/Proyectos_Automatizacion/ApiVecindarioBDD/src/test/resources/features/simular_api.feature
+Pasa
+{
+    "msg": "OK!"
+}
+Feature from file:///C:/Automatizaciones/Proyectos_Automatizacion/ApiVecindarioBDD/src/test/resources/features/simular_api.feature
+Pasa
+{
+    "msg": "OK!"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
