@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Simular Api","Validar servicio de API SIMULADOR","ERROR","2022-08-07T17:29:33.233-05:00[America/Bogota]","0.0","1.37"
+"Simular Api","Validar servicio de API SIMULADOR","ERROR","2022-08-07T17:45:45.749-05:00[America/Bogota]","0.0","16.12"
+"Simular Api","Validar error en el mensaje esperado","FAILURE","2022-08-07T17:03:32.654-05:00[America/Bogota]","0.0","0.88"

@@ -148,7 +148,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-08-2022 14:43</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-08-2022 17:29</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -178,9 +178,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">
+                                <span class="error-color">
                                     Validar servicio de API SIMULADOR
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -212,11 +212,11 @@
                                             <tr>
                                                     <td width="100%">
                                                         <h4>
-                                                            <i class="fa fa-2x fa-user-o"></i>&nbsp;<span>Dahia</span>
+                                                            <i class="fa fa-2x fa-user-o"></i>&nbsp;<span>SAM</span>
                                                             <h4>
                                                                 <p></p>
                                                                 <ul>
-                                                                        <li><strong>Dahia can:</strong>
+                                                                        <li><strong>SAM can:</strong>
                                                                             <ul>
                                                                                     <li>browse the web</li>
                                                                                     <li>call an API at </li>
@@ -261,268 +261,143 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="top-level-step">
-                                                Dado que el cliente quiera cotizar el valor de una propiedad que se acomode a su necesidad
+                                                SAM opens the https://app.simula.vecindario.com/preview/vecindario-living
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.01s</span></td>
+                        <td width="130"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">0.77s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-1""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-1">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.DriverConfigurationError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.segurossura.certification.soat.stepdefinitions.Hooks.configurarActor(Hooks.java:48)<br />io.cucumber.java.Invoker.invoke(Invoker.java:27)<br />io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:61)<br />io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:31)<br />io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:20)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:49)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:47)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:66)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: net.thucydides.core.webdriver.DriverConfigurationError
+                    </h4>
+                    <div>
+                            <pre>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html). See below for more details.</pre>
+                        <pre>co.com.segurossura.certification.soat.stepdefinitions.Hooks.configurarActor(Hooks.java :48)<br />io.cucumber.java.Invoker.invoke(Invoker.java :27)<br />io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java :61)<br />io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java :31)<br />io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java :20)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :64)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :49)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :47)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :66)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :83)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :24)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :227)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :54)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
 
                         <td width="50" class="step-icon">
                             <a name="1"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                                   style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1 success-icon"
-                                       style="margin-left: 20px; float:left; padding-right:5px"></i>
-                                </a>
+                                <span style="margin-left: 20px;"
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
+                                </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                                   style="display:block;">
                                     <span class="top-level-step">
-                                                Cuando cuando cotice por medio del API "https://prod.api.simula.vecindario.com/"
-                                        </span>
-                                </a>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">3.16s</span></td>
-                    </tr>
-                        <tr>
-                            <td colspan="5">
-                                <table id="stepSection1" class="step-table-nested" style="display:none;">
-
-                    <tr class="test-SUCCESS">
-
-                        <td width="70" class="step-icon">
-                            <a name="1-0"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
-                                   style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1-0 success-icon"
-                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
-                                </a>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
-                                   style="display:block;">
-                                    <span class="nested-step">
-                                                Dahia get api simulator
-                                        </span>
-                                </a>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">2.87s</span></td>
-                    </tr>
-                        <tr>
-                            <td colspan="5">
-                                <table id="stepSection1-0" class="step-table-nested" style="display:none;">
-
-                    <tr class="test-SUCCESS">
-
-                        <td width="90" class="step-icon">
-                            <a name="1-0-0"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0-0')"
-                                   style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1-0-0 success-icon"
-                                       style="margin-left: 60px; float:left; padding-right:5px"></i>
-                                </a>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0-0')"
-                                   style="display:block;">
-                                    <span class="nested-step">
-                                                Dahia executes a GET on the resource https://prod.api.simula.vecindario.com/
-                                        </span>
-                                </a>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">2.84s</span></td>
-                    </tr>
-                        <tr>
-                            <td colspan="5">
-                                <table id="stepSection1-0-0" class="step-table-nested" style="display:none;">
-
-                    <tr class="test-SUCCESS">
-
-                        <td width="110" class="step-icon">
-                            <a name="1-0-0-0"></a>
-                                <span style="margin-left: 80px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                GET https://prod.api.simula.vecindario.com/
+                                                Dado que el cliente ingrese a simular la compra de su inmueble
                                         </span>
                                 <span class="evidence">
-                                        <span class="piece-of-evidence">
-                    <span>
-                        <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
-                                data-target="#restModal-REST-5">
-                            REST Query
-                        </button>
-                    </span>
-                    <!-- Modal -->
-                    <div class="rest-query-details">
-                        <div class="collapse multi-collapse" id="restModal-REST-5">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4>Response</h4>
-                                        <p>Status code: 200</p>
-                                        <p>Content Type: null</p>
-                                        <h4>Request Headers</h4>
-                                        <pre>Accept=*/*</pre>
-                                        <h4>Content Body</h4>
-                                        <pre></pre>
-                                        <h4>Request Cookies</h4>
-                                        <pre></pre>
-                                        <h4>Response Headers</h4>
-                                        <pre>Cache-Control: max-age=0, private, must-revalidate<br>Content-Type: application/json; charset=utf-8<br>Date: Fri, 05 Aug 2022 19:43:03 GMT<br>ETag: W/&quot;5d8ee8f9004ac6c377692351b6e09296&quot;<br>Referrer-Policy: strict-origin-when-cross-origin<br>Server: nginx/1.18.0<br>Strict-Transport-Security: max-age=63072000; includeSubDomains<br>Vary: Accept, Origin<br>X-Content-Type-Options: nosniff<br>X-Download-Options: noopen<br>X-Frame-Options: SAMEORIGIN<br>X-Permitted-Cross-Domain-Policies: none<br>X-Request-Id: 85df8a59-e20c-46d1-9453-444503f95f17<br>X-Runtime: 0.002277<br>X-XSS-Protection: 1; mode=block<br>Content-Length: 13<br>Connection: keep-alive</pre>
-                                    <h4>Response Body</h4>
-                                        <pre>{<br>    &quot;msg&quot;: &quot;OK!&quot;<br>}</pre>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                                        </span>
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0s</span></td>
+                        <td width="130"><span class="top-level-step">SKIPPED</span></td>
+                        <td width="100"><span class="top-level-step">0.01s</span></td>
                     </tr>
-
-                                </table>
-                            </td>
-                        </tr>
-
-                                </table>
-                            </td>
-                        </tr>
-
-                                </table>
-                            </td>
-                        </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="50" class="step-icon">
                             <a name="2"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
-                                   style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection2 success-icon"
-                                       style="margin-left: 20px; float:left; padding-right:5px"></i>
-                                </a>
+                                <span style="margin-left: 20px;"
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
+                                </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
-                                   style="display:block;">
                                     <span class="top-level-step">
-                                                Entonces debería ver un mensaje con exito 'OK!'
+                                                Cuando cuando llene la información necesario par la simulación
                                         </span>
-                                </a>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.34s</span></td>
+                        <td width="130"><span class="top-level-step">SKIPPED</span></td>
+                        <td width="100"><span class="top-level-step">0.01s</span></td>
                     </tr>
-                        <tr>
-                            <td colspan="5">
-                                <table id="stepSection2" class="step-table-nested" style="display:none;">
+                    <tr class="test-PENDING">
 
-                    <tr class="test-SUCCESS">
-
-                        <td width="70" class="step-icon">
-                            <a name="2-0"></a>
-                                <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                        <td width="50" class="step-icon">
+                            <a name="3"></a>
+                                <span style="margin-left: 20px;"
+                                      class="top-level-icon"><a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                    <span class="nested-group-step">
-                                                Then codigo respuesta servicio should be (200)
+                                    <span class="top-level-step">
+                                                Entonces debería ver un mensaje con exito
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0s</span></td>
+                        <td width="130"><span class="top-level-step">PENDING</span></td>
+                        <td width="100"><span class="top-level-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
-
-                        <td width="70" class="step-icon">
-                            <a name="2-1"></a>
-                                <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                Then validar msg respuesta should be 'OK!'
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0s</span></td>
-                    </tr>
-
-                                </table>
-                            </td>
-                        </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>3.7s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>1.37s</em></span></td>
                 </tr>
 
             </table>

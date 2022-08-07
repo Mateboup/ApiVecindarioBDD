@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Simular Api" skipped="0" tests="2" time="4.28" timestamp="2022-08-05 02:43:00"><testcase name="Validar servicio de API SIMULADOR"/><testcase name="Validar error en el mensaje esperado"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Simular Api" skipped="0" tests="1" time="1.37" timestamp="2022-08-07 05:29:33"><testcase name="Validar servicio de API SIMULADOR"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
+co.com.segurossura.certification.soat.stepdefinitions.Hooks.configurarActor(Hooks.java:48)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:27)&#13;
+io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:61)&#13;
+io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:31)&#13;
+io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:20)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:49)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:47)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:66)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)&#13;
+</system-err></testcase></testsuite>

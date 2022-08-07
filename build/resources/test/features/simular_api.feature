@@ -14,5 +14,5 @@ Característica: Simular Api
     Entonces debería ver un mensaje con exito 'OK!'
 
   Escenario: Validar error en el mensaje esperado
-    Entonces debería ver un mensaje con exito 'OK!'
+    Entonces debería ver un mensaje con exito 'NO-OK!'
 
